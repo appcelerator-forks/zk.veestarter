@@ -10,7 +10,15 @@
   (ti/open
     (ti/win {:background-color "white"}
       (ti/view {}
-        (ti/label {:text "Hello Vee"})))))
+        (ti/image-view {:image "down.png"
+                        :top 75}))
+      (ti/view {:bottom 0
+                :height 75
+                :border-color "black"}
+        (ti/image-view {})
+        (ti/view {:bottom 0
+                  :top 30
+                  :background-color "#00BCD4"})))))
 
 (defn stop-app [win]
   (when win
