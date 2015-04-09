@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.0.1
+apiversion: 2
+description: errors
+author: Zachary Kim
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: errors
+moduleid: com.heyzk.errors
+guid: db9658b6-c639-4049-bd4b-b93cbf4ec4f3
+platform: iphone
+minsdk: 3.4.0.GA

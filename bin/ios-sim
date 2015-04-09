@@ -1,0 +1,3 @@
+#!/bin/sh
+
+titanium build -p iphone -T simulator --retina --tall --sim-version 8.2 --ios-version 8.2 -C A1204B3A-1193-4BB5-81D5-FCC4DA7ECA28

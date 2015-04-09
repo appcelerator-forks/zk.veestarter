@@ -1,0 +1,3 @@
+#!/bin/sh
+
+titanium build -p iphone -T device --skip-js-minify

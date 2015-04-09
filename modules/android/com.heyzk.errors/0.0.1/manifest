@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.0.1
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: errors
+author: Zachary Kim
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: errors
+moduleid: com.heyzk.errors
+guid: 5b2c6fae-1045-45d3-aee2-9e1e675ff8a2
+platform: android
+minsdk: 3.5.0.GA
