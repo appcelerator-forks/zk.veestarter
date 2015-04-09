@@ -5,7 +5,7 @@
   :dependencies '[[org.clojure/clojure "1.6.0"]
                   [org.clojure/clojurescript "0.0-2850"]
                   [nsfw "0.8.12" :exclusions [org.clojure/clojure]]
-                  [vee "0.0.6" :exclusions [nsfw]]])
+                  [vee "0.0.7" :exclusions [nsfw]]])
 
 (require '[vee.server :as vee-server])
 
